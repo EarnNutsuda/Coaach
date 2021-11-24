@@ -1,0 +1,91 @@
+.left {
+  margin-right: 48px;
+}
+.left img {
+  width: 424px;
+  object-fit: cover;
+}
+
+select {
+  border-color: rgba(0, 0, 0, 0.1);
+  padding: 2px 4px;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+.r div {
+  padding-top: 4px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 32px 0;
+  padding: 0;
+}
+
+.price_sum {
+  width: 24%;
+}
+.price_sum div:nth-child(1) {
+  padding-bottom: 20px !important;
+}
+.price_sum div:nth-child(1) span {
+  font-size: 20px;
+}
+
+.payment {
+  width: 80%;
+}
+
+.tab_title {
+  width: 24%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  padding: 20px 24px 12px 24px;
+}
+.tab_title:hover {
+  background-color: #F2EBE6;
+  border-color: #F2EBE6;
+}
+.tab_title.active {
+  background-color: #B0A698;
+  border: none;
+}
+.tab_title.active .button {
+  color: white;
+}
+.tab_title .button {
+  color: black;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+}
+
+.tab_content {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  display: none;
+}
+.tab_content img {
+  width: 150px;
+  height: 150px;
+}
+.tab_content.active {
+  display: block;
+}
+
+.submit_area {
+  margin: 24px 0 96px 0;
+  float: right;
+}
+
+/*# sourceMappingURL=courseRegisStyle.css.map */

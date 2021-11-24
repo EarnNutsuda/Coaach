@@ -1,0 +1,83 @@
+.linkstyle{
+    text-decoration: none;
+    color:black;
+}
+
+.title_wrapper
+{   padding: 48px;
+    background-color: var(--main-color2);
+}
+.title{
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.title_section .description{
+    margin-top: 16px;
+    font-size: 24px;
+}
+.main_div{
+    padding: 32px 128px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*------- side menu css BEGIN------*/
+.side_menu{
+    width: 28%;
+
+}
+.side_menu ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.side_menu ul li{
+    padding: 16px 0;
+}
+.side_menu ul li a{
+    font-size: 20px;
+}
+/*------- side menu css END------*/
+
+
+
+/*------- category css BEGIN------*/
+.category_display{
+    width: 100%;
+}
+.category_display_column{
+    display: flex;
+    flex-direction: column;
+}
+.category_display_row{
+    padding-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/*------- category css END------*/
+
+
+
+/*------- category card css BEGIN------*/
+.category_wrapper{
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px 0px;
+}
+.category_wrapper img{
+    width: 380px;
+    height: 240px;
+    object-fit: cover;
+    border-top-left-radius:24px;
+    border-top-right-radius:24px;
+}
+.category_wrapper p{
+    text-align: center;
+    font-size: 24px;
+}
+.category_wrapper:hover p{
+    color:var(--main-color);
+}
+/*------- category card css END------*/

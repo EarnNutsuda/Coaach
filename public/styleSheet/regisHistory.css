@@ -1,0 +1,16 @@
+.row {
+  background-color: rgba(242, 235, 230, 0.6);
+  padding: 24px;
+  position: relative;
+}
+.row .date {
+  position: absolute;
+  right: 23px;
+  top: 32px;
+}
+
+.inner {
+  padding: 24px;
+}
+
+/*# sourceMappingURL=regisHistory.css.map */

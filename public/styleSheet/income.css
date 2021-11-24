@@ -1,0 +1,36 @@
+.form header {
+    width: 80%;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 25px 0 0 128px;
+    border-bottom: 1px solid #a5a3a3;
+}
+
+.form label {
+    margin: 25px 0 0 128px;
+    font-size: 20px;
+}
+
+.form .input-group {
+    width: 300px;
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 68%;
+}
+
+.form .input-group button {
+    background-color: #2D3436;
+    color: white;
+    border: none;
+}
+
+.form .table {
+    margin: 25px 0 0 128px;
+    width: 80%;
+}
+
+.form .table a {
+    margin-left: 10px;
+    color: black;
+}

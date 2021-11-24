@@ -1,0 +1,19 @@
+$border_color: rgba(0, 0, 0, 0.1);
+$text_col: #4D4D4D;
+$img_size: 424px;
+$main_col: #B0A698;
+$main_col2: #F2EBE6;
+.row{
+background-color: rgba(242, 235, 230, 0.6);
+  padding: 24px;
+  position: relative;
+  .date{
+    position: absolute;
+    right:23px;
+    top:32px;
+  }
+}
+
+.inner{
+  padding:24px;
+}

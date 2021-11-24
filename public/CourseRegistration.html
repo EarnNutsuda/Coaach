@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script>
+        $(function () {
+            $("#includedHeader").load("header.html");
+        });
+    </script>
+    <link rel="stylesheet" href="styleSheet/courseRegisStyle.css">
+    <link rel="stylesheet" href="styleSheet/rootstyle.css">
+    <meta charset="UTF-8">
+    <title>Add New Course</title>
+</head>
+<body>
+<div id="includedHeader"></div>
+<!--- top category menu-->
+<div class="top_category_menu">
+    <ul>
+        <li><a href="#Tutoring">Tutoring</a></li>
+        <li><a href="#Stylist">Personal Stylist</a></li>
+        <li><a href="#Gaming">Gaming</a></li>
+        <li><a href="#Arts and Craft">Arts and Craft</a></li>
+        <li><a href="#Fitness">Fitness Trainer</a></li>
+        <li><a href="#Fitness">Cooking</a></li>
+        <li><a href="#Fitness">Life Coach</a></li>
+    </ul>
+</div>
+
+<div class="content">
+    <div class="course_sum c">
+        <div class="left">
+            <img src="../uploads/course_image/1.jpg">
+        </div>
+        <div class="right">
+            <div class="r">
+                <h2 style="margin:0;">Course name</h2>
+                <span class="light">By coach name</span>
+            </div>
+            <div class="r">
+                <div><span class="bold">Regular Course : </span><span class="price">500 Baht/ 1 Hour</span></div>
+                <div><span class="bold">Buffet Course : </span><span class="price">4500 Baht/ 10 Hours</span></div>
+            </div>
+            <form>
+                <div class="r f">
+                    <span class="bold"> Book Lesson</span>
+                    <div class="c">
+                        <div>
+                            <label for="hour">Hour</label>
+                            <select name="hour" id="hour">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div>
+                            <span>Total 500 Baht</span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <!-- Payment section-->
+    <div class="c">
+        <div class=" subtotal box price_sum">
+            <div><span class="bold r">course name</span></div>
+            <div class="c r space-bt"><span class="light">Subtotal (1 Hour)</span> <span class="light">500 Baht</span>
+            </div>
+            <div class="c r space-bt"><span class="light">Service Fee</span> <span class="light">75 Baht</span></div>
+            <div class="c r space-bt"><span class="bold">Total</span><span class="light">575 Baht</span></div>
+        </div>
+        <div class="right payment">
+            <div class="tab_header c">
+                <div class="tab_title active bold" id="banktransfer_head">
+                    <button onclick="tabopen(event,'banktransfer')">Bank Transfer</button>
+                </div>
+                <div class="tab_title bold" id="scan_head">
+                    <button onclick="tabopen(event,'scan')">Promptpay Scan</button>
+                </div>
+            </div>
+
+            <div class="tab_content active" id="banktransfer">
+                <ul>
+                    <li class="c r space-bt">Bank: Kasikorn Bank</li>
+                    <li class="c r space-bt">Account Name: Company Name</li>
+                    <li class="c r space-bt">Account Number: 111-1111-111</li>
+                </ul>
+            </div>
+            <div class="tab_content" id="scan">
+                <img class="qr" src="../media/logo.png">
+                <ul>
+                    <li class="c space-bt">Account Name: Company Name</li>
+                    <li class="c space-bt">Account Number: 111-1111-111</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="submit_area">
+        <form>
+            <button class="upload">Upload Image</button>
+            <input type="submit" value="Confirm Payment">
+        </form>
+    </div>
+</div>
+</body>
+<script>
+    function tabopen(event, method) {
+        var i, tabcontent, tabtitle;
+        tabcontent = document.getElementsByClassName("tab_content");
+        tabtitle = document.getElementsByClassName("tab_title");
+        for (i = 0; i < tabtitle.length; i++) {
+            tabtitle[i].classList.remove('active');
+            tabcontent[i].classList.remove('active')
+        }
+        document.getElementById(method + "_head").classList.add('active');
+        document.getElementById(method).classList.add('active');
+
+    }
+</script>
+</html>

@@ -1,0 +1,94 @@
+.progress {
+  padding: 0px 124px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.progress .wrapper {
+  padding: 16px 32px;
+}
+.progress .wrapper:nth-child(2) {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.progress .wrapper .active {
+  color: #B0A698;
+}
+
+form#add_course .r {
+  padding: 12px 0;
+}
+form#add_course label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+form#add_course .btn {
+  padding: 8px 96px;
+  float: right;
+  margin: 24px 0 72px 0;
+}
+
+.inner {
+  width: 60%;
+  margin: auto;
+}
+
+.preview {
+  width: 720px;
+  margin: 48px 0;
+}
+
+button.remove {
+  background-color: transparent;
+  color: red;
+  font-size: 12px;
+  padding: 0;
+  margin-left: 4px;
+}
+
+.img_name {
+  margin-right: 20px;
+}
+
+.group {
+  margin-right: 12px;
+  align-items: center;
+}
+.group input {
+  margin: 0 12px 0 0;
+}
+.group input:nth-child(2) {
+  margin: 0 12px;
+}
+.group input#perhour {
+  width: 50%;
+}
+
+.r2 {
+  margin: 32px 0;
+}
+
+.title2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+div.content_left {
+  width: 720px;
+}
+
+div.content_right {
+  position: absolute;
+  z-index: 999;
+  background-color: white;
+  right: 128px;
+  margin-top: 32px;
+  padding: 24px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px 0px;
+  border-radius: 24px;
+}
+
+.btn2 {
+  padding: 12px 124px !important;
+  margin: 12px 0 12px 0;
+}
+
+/*# sourceMappingURL=addCourse.css.map */

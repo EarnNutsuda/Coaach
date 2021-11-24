@@ -1,0 +1,48 @@
+.form header {
+    width: 80%;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 25px 0 0 128px;
+    border-bottom: 1px solid #a5a3a3;
+}
+
+a {
+    padding-top: 10px;
+    margin-left: 128px;
+}
+
+.form label {
+    margin: 25px 0 0 128px;
+    font-size: 15px;
+}
+
+.form .field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form .input input {
+    height: 30px;
+    width: 20%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 0 0 128px;
+}
+
+.form .field input {
+    outline: none;
+}
+
+.button input {
+    margin: 45px 0 0 30%;
+    height: 45px;
+    width: 400px;
+    background: #c4baac;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
