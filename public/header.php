@@ -46,7 +46,7 @@ else{
             <div class="logo_img am">
                 <img src="../../media/logo.png">
             </div>
-            <span class="mg am">Coaach</span>
+            <span class="mg am">Furreal</span>
         </a>
     </div>
 

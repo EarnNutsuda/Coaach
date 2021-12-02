@@ -13,7 +13,7 @@ require_once('../connect.php');
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styleSheet/income.css">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../../media/logo.png">
 </head>
 
@@ -30,7 +30,7 @@ require_once('../connect.php');
             <thead>
             <tr>
                 <th scope="col">Date</th>
-                <th scope="col">Registration ID</th>
+                <th scope="col">Course ID</th>
                 <th scope="col">User ID</th>
                 <th scope="col">Amount</th>
                 <th scope="col">Slip</th>
@@ -47,7 +47,7 @@ require_once('../connect.php');
             while($row=$result->fetch_array()){ ?>
                 <tr>
                     <td><?=$row['Date']?></td>
-                    <td><?=$row['registration_id']?></td>
+                    <td><?=$row['course_id']?></td>
                     <td><?=$row['unique_id']?></td>
                     <td><?=$row['amount']?> Baht</td>
                     <td>

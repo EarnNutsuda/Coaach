@@ -8,7 +8,7 @@ require_once('../connect.php');
     <title>Profile</title>
     <link rel="stylesheet" href="../styleSheet/profile.css">
     <link rel="stylesheet" href="../styleSheet/courses.css">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../../media/logo.png">
 </head>
 <body>

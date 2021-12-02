@@ -13,7 +13,7 @@ require_once('../connect.php');
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styleSheet/income.css">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../../media/logo.png">
 </head>
 
@@ -33,9 +33,9 @@ require_once('../connect.php');
                 <th scope="col">Total Income</th>
                 <th scope="col">Vat</th>
                 <th scope="col">After Vat</th>
-                <th scope="col">Service Fee</th>
-                <th scope="col">Give to Coach</th>
-                <th scope="col">Expected Transaction Date</th>
+                <th scope="col">service_fee</th>
+                <th scope="col">give_to_coach</th>
+                <th scope="col">expected_transaction_date</th>
             </tr>
             </thead>
             <tbody>
@@ -48,13 +48,13 @@ require_once('../connect.php');
             }
             while($row=$result->fetch_array()){ ?>
                 <tr>
-                    <td><?=$row['registration_id']?></td>
+                    <td><?=$row['registration_id']?> Baht</td>
                     <td><?=$row['total_in']?> Baht</td>
                     <td><?=$row['vat']?> Baht</td>
                     <td><?=$row['after_vat']?> Baht</td>
                     <td><?=$row['service_fee']?> Baht</td>
                     <td><?=$row['give_to_coach']?> Baht</td>
-                    <td><?=$row['expected_transaction_date']?></td>
+                    <td><?=$row['expected_transaction_date']?> Baht</td>
                 </tr>
             <?php } ?>
             </tbody>

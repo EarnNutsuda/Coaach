@@ -13,7 +13,7 @@ require_once('../connect.php');
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="../styleSheet/AdUpdate.css">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../../media/logo.png">
 </head>
 
@@ -23,9 +23,9 @@ require_once('../connect.php');
     <header>Admin Update For Outcome</header>
     <form action="outcome.php" method="post">
         <div class="field input">
-            <a href="income.php">See Income</a>
-            <label>Registration ID</label>
-            <input type="text" name='registration_id'>
+            <a href="income.php">Switch to Income update page</a>
+            <label>Course ID</label>
+            <input type="text" name='course_id'>
         </div>
         <div class="field input">
             <label>User ID</label>

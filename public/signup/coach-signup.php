@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
     <link rel="stylesheet" href="../styleSheet/info_style.css">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../../media/logo.png">
 </head>
 <body>

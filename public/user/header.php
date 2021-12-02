@@ -24,7 +24,7 @@ if (mysqli_num_rows($sql2) == 0) {
     <script src="https://kit.fontawesome.com/32597fd7ba.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styleSheet/header.css">
     <link rel="stylesheet" href="../../styleSheet/header.css">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../../../media/logo.png">
 
 </head>
@@ -37,7 +37,7 @@ if (mysqli_num_rows($sql2) == 0) {
             <div class="logo_img am">
                 <img src="../../../media/logo.png">
             </div>
-            <span class="mg am">Coaach</span>
+            <span class="mg am">Furreal</span>
         </a>
     </div>
 

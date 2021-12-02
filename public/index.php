@@ -13,7 +13,7 @@ if(!isset($_SESSION['unique_id'])){
     <link rel="stylesheet" href="styleSheet/rootstyle.css">
     <link rel="stylesheet" href="styleSheet/header.css">
     <meta charset="UTF-8">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../media/logo.png">
 </head>
 <body>

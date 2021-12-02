@@ -16,7 +16,7 @@ require_once('../connect.php');
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styleSheet/income.css">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../../media/logo.png">
 </head>
 <?php include_once('../header.php') ?>
@@ -41,7 +41,7 @@ require_once('../connect.php');
             </thead>
             <tbody>
             <?php
-            $q = "SELECT Date, registration_id,amount,coach.*  FROM Outcome,users,coach WHERE coach.unique_id = users.unique_id AND Outcome.unique_id = users.unique_id AND Outcome.unique_id = {$_SESSION['unique_id']}";
+            $q = "SELECT Date, course_id,amount,coach.*  FROM Outcome,users,coach WHERE coach.unique_id = users.unique_id AND Outcome.unique_id = users.unique_id AND Outcome.unique_id = {$_SESSION['unique_id']}";
 
             $result = $mysqli->query($q);
             if (!$result) {
@@ -51,7 +51,7 @@ require_once('../connect.php');
             while ($row = $result->fetch_array()) { ?>
                 <tr>
                     <td><?= $row['Date'] ?></td>
-                    <td><?= $row['registration_id'] ?></td>
+                    <td><?= $row['course_id'] ?></td>
                     <td><?= $row['amount'] ?> Baht</td>
                     <td><?= $row['Bank_account'] ?>  <?= $row['Bankaccount_name'] ?></td>
                 </tr>

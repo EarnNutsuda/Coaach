@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../../styleSheet/rootstyle.css">
 
     <meta charset="UTF-8">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../../../media/logo.png">
 </head>
 <body>

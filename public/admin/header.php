@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/32597fd7ba.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styleSheet/header.css">
     <link rel="stylesheet" href="../styleSheet/header.css">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../../../media/logo.png">
 
 </head>
@@ -20,7 +20,7 @@
             <div class="logo_img am">
                 <img src="../../../media/logo.png">
             </div>
-            <span class="mg am">Coaach Admin</span>
+            <span class="mg am">Furreal Admin</span>
         </a>
     </div>
 

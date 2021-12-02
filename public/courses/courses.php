@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../styleSheet/courses.css">
     <link rel="stylesheet" href="../styleSheet/rootstyle.css">
     <meta charset="UTF-8">
-    <title>Coaach</title>
+    <title>Furreal</title>
     <link rel="shortcut icon" href="../../media/logo.png">
 </head>
 <body>
@@ -21,7 +21,7 @@
         $q = 'select * from category;';
         if ($result = $mysqli->query($q)) {
             while ($row = $result->fetch_array()) {
-                echo '<li><a href="courses.php?category=' . $row["category_id"] . '">' . $row["category_name"] . '</a></li>';
+                echo '<li><a href="courses.php?category=' . $row["category_name"] . '">' . $row["category_name"] . '</a></li>';
             }
         } else {
             echo 'Query error: ' . $mysqli->error;
