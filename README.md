@@ -9,8 +9,8 @@ Coaach is coach finding platform. Once users signup to our website, they can boo
 ## Project Demo.
 Project demo can be seen in demo folder. The demos are saved in PDFs.
 
-## About Chat Flow 
-Credit to :https://www.codingnepalweb.com/chat-web-application-using-php/ <br/>
+## Credits
+For chat system, credit to :https://www.codingnepalweb.com/chat-web-application-using-php/ <br/>
 For more detail please see https://www.codingnepalweb.com/
 
 ## Developer
